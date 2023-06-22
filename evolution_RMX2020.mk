@@ -17,8 +17,6 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 EVO_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_USES_MINI_GAPPS := true
-TARGET_SUPPORTS_QUICK_TAP := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_RMX2020
